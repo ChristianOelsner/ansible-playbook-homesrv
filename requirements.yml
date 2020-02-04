@@ -3,3 +3,5 @@
 #   scm: git
   - src: git@github.com:ChristianOelsner/ansible-role-docker-ce.git
     scm: git
+  - src: git@github.com:ChristianOelsner/ansible-role-java
+    scm: git

@@ -1,0 +1,8 @@
+# add roles as needed
+---
+- name: Run whatever roles needed
+  hosts: all
+  become: yes
+  roles:
+    - role: ansible-role-docker-ce
+    - role: ansible-role-java
